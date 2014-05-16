@@ -15,13 +15,13 @@ gem 'pg'
 gem 'simple_form'
 gem 'paperclip'
 gem 'aws-sdk'
+gem 'placeholdit'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
   gem 'hub', :require=>nil
   gem 'quiet_assets'
   gem 'rails_layout'
-  gem 'placeholdit'
 end
 group :development, :test do
   gem 'factory_girl_rails'
