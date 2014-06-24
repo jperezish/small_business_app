@@ -1,5 +1,6 @@
 // import the CSS framework
 @import "foundation";
+@import "foundation/components/top-bar";
 
 // override for the 'Home' navigation link
 .top-bar .name {
@@ -7,8 +8,12 @@
   line-height: 45px; }
 .top-bar .name a {
   font-weight: normal;
-  color: white;
+  color: black;
   padding: 0 15px; }
+
+$include-html-top-bar-classes: $include-html-classes;
+$topbar-bg: #FFF;
+$topbar-height: 80px;
 
 // THESE ARE EXAMPLES YOU CAN MODIFY
 // create mixins using Foundation classes

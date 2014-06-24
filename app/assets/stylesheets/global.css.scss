@@ -1,0 +1,94 @@
+@import "foundation_and_overrides";
+
+.top-bar {
+  background: none;
+  .name {
+    margin-top: 5px;
+    a {
+      font-family: 'Pacifico', sans-serif;
+      line-height: 1em;
+      font-weight: normal;
+      color: #FFF;
+      padding: 0 15px;
+      font-size: 2.7rem;
+      text-shadow:0px 0px 0 rgb(211,211,211),0px 1px 0
+      rgb(192,192,192),0px 2px 0 rgb(173,173,173),0px 3px 0
+      rgb(154,154,154),0px 4px 0 rgb(135,135,135),0px 5px 0
+      rgb(116,116,116), 0px 6px 0 rgb(97,97,97),0px 7px 6px
+      rgba(0,0,0,0.55),0px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+    }
+  }
+}
+
+.top-bar-section li a {
+    line-height: 73px !important;
+  }
+
+body {
+  background: url('temp-lead-shot.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-color: black;
+}
+
+.feature-section {
+  height: 220px;
+  margin-bottom: 10px;
+  text-align: center;
+  h3 {
+    color: #FE4539;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  }
+  #tagline {
+    font-family: 'Arimo', sans-serif;
+    line-height: 1em;
+    font-weight: bold;
+    color: #FFF;
+    font-size: 3.7rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.picture-section {
+  height: 750px;
+  background: rgba(180, 11,  2, 0.5);
+  #phone-number{
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    line-height: 1em;
+    font-weight: normal;
+    color: #FFF;
+    font-size: 3.7rem;
+    margin: 30px 0 30px 0;
+  }
+  .featured-images {
+    img {
+      border: 5px solid #FFF;
+      border-radius: 10px;
+    }
+  }
+}
+
+@media #{$small-only} {
+  .top-bar {
+    height: 70px;
+    .name {
+      a {
+        font-size: 2.2rem;
+      }
+    }
+  }
+
+.picture-section {
+  height: 540px;
+  #phone-number {
+    font-size: 2em;
+  }
+}
+
+  .feature-section {
+    height: 160px;
+    #tagline{
+      font-size: 2em;
+    }
+  }
+}

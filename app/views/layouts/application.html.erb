@@ -9,6 +9,8 @@
     <%= javascript_include_tag 'vendor/modernizr' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <header>
@@ -18,5 +20,20 @@
        <%= render 'layouts/messages' %>
        <%= yield %>
     </main>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+          $('.featured-images').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        slide: 'div',
+        cssEase: 'linear',
+        autoplay: true,
+        centerMode: true
+          });
+      });
+    </script>
   </body>
 </html>
