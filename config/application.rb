@@ -41,6 +41,7 @@ module SmallBusinessApp
 
     # For Foundation 5
     config.assets.precompile += %w( vendor/modernizr .js .css *.css.scss .svg .eot .woff .ttf )
+    config.serve_static_assets = true
 
   end
 end
