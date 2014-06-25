@@ -1,0 +1,832 @@
+/* line 260, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-version {
+  font-family: "/5.2.2/";
+}
+
+/* line 264, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-small {
+  font-family: "/only screen/";
+  width: 0em;
+}
+
+/* line 269, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-medium {
+  font-family: "/only screen and (min-width:40.063em)/";
+  width: 40.063em;
+}
+
+/* line 274, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-large {
+  font-family: "/only screen and (min-width:64.063em)/";
+  width: 64.063em;
+}
+
+/* line 279, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-xlarge {
+  font-family: "/only screen and (min-width:90.063em)/";
+  width: 90.063em;
+}
+
+/* line 284, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-xxlarge {
+  font-family: "/only screen and (min-width:120.063em)/";
+  width: 120.063em;
+}
+
+/* line 289, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-data-attribute-namespace {
+  font-family: false;
+}
+
+/* line 296, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 301, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 306, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+html,
+body {
+  font-size: 100%;
+}
+
+/* line 309, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+body {
+  background: white;
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+}
+
+/* line 322, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+a:hover {
+  cursor: pointer;
+}
+
+/* line 325, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 327, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 333, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+#map_canvas img,
+#map_canvas embed,
+#map_canvas object,
+.map_canvas img,
+.map_canvas embed,
+.map_canvas object {
+  max-width: none !important;
+}
+
+/* line 338, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.left {
+  float: left !important;
+}
+
+/* line 339, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.right {
+  float: right !important;
+}
+
+/* line 340, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.clearfix {
+  *zoom: 1;
+}
+/* line 116, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+/* line 117, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 341, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.hide {
+  display: none;
+}
+
+/* line 347, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 350, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 360, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+textarea {
+  height: auto;
+  min-height: 50px;
+}
+
+/* line 363, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+select {
+  width: 100%;
+}
+
+/* line 137, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+.text-left {
+  text-align: left !important;
+}
+
+/* line 138, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+.text-right {
+  text-align: right !important;
+}
+
+/* line 139, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+.text-center {
+  text-align: center !important;
+}
+
+/* line 140, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+.text-justify {
+  text-align: justify !important;
+}
+
+@media only screen and (max-width: 40em) {
+  /* line 144, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .small-only-text-left {
+    text-align: left !important;
+  }
+
+  /* line 145, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .small-only-text-right {
+    text-align: right !important;
+  }
+
+  /* line 146, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .small-only-text-center {
+    text-align: center !important;
+  }
+
+  /* line 147, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .small-only-text-justify {
+    text-align: justify !important;
+  }
+}
+@media only screen {
+  /* line 144, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .small-text-left {
+    text-align: left !important;
+  }
+
+  /* line 145, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .small-text-right {
+    text-align: right !important;
+  }
+
+  /* line 146, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .small-text-center {
+    text-align: center !important;
+  }
+
+  /* line 147, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .small-text-justify {
+    text-align: justify !important;
+  }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 144, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .medium-only-text-left {
+    text-align: left !important;
+  }
+
+  /* line 145, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .medium-only-text-right {
+    text-align: right !important;
+  }
+
+  /* line 146, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .medium-only-text-center {
+    text-align: center !important;
+  }
+
+  /* line 147, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .medium-only-text-justify {
+    text-align: justify !important;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 144, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .medium-text-left {
+    text-align: left !important;
+  }
+
+  /* line 145, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .medium-text-right {
+    text-align: right !important;
+  }
+
+  /* line 146, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .medium-text-center {
+    text-align: center !important;
+  }
+
+  /* line 147, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .medium-text-justify {
+    text-align: justify !important;
+  }
+}
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+  /* line 144, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .large-only-text-left {
+    text-align: left !important;
+  }
+
+  /* line 145, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .large-only-text-right {
+    text-align: right !important;
+  }
+
+  /* line 146, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .large-only-text-center {
+    text-align: center !important;
+  }
+
+  /* line 147, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .large-only-text-justify {
+    text-align: justify !important;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 144, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .large-text-left {
+    text-align: left !important;
+  }
+
+  /* line 145, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .large-text-right {
+    text-align: right !important;
+  }
+
+  /* line 146, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .large-text-center {
+    text-align: center !important;
+  }
+
+  /* line 147, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .large-text-justify {
+    text-align: justify !important;
+  }
+}
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {
+  /* line 144, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .xlarge-only-text-left {
+    text-align: left !important;
+  }
+
+  /* line 145, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .xlarge-only-text-right {
+    text-align: right !important;
+  }
+
+  /* line 146, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .xlarge-only-text-center {
+    text-align: center !important;
+  }
+
+  /* line 147, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .xlarge-only-text-justify {
+    text-align: justify !important;
+  }
+}
+@media only screen and (min-width: 90.063em) {
+  /* line 144, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .xlarge-text-left {
+    text-align: left !important;
+  }
+
+  /* line 145, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .xlarge-text-right {
+    text-align: right !important;
+  }
+
+  /* line 146, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .xlarge-text-center {
+    text-align: center !important;
+  }
+
+  /* line 147, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .xlarge-text-justify {
+    text-align: justify !important;
+  }
+}
+@media only screen and (min-width: 120.063em) and (max-width: 99999999em) {
+  /* line 144, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .xxlarge-only-text-left {
+    text-align: left !important;
+  }
+
+  /* line 145, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .xxlarge-only-text-right {
+    text-align: right !important;
+  }
+
+  /* line 146, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .xxlarge-only-text-center {
+    text-align: center !important;
+  }
+
+  /* line 147, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .xxlarge-only-text-justify {
+    text-align: justify !important;
+  }
+}
+@media only screen and (min-width: 120.063em) {
+  /* line 144, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .xxlarge-text-left {
+    text-align: left !important;
+  }
+
+  /* line 145, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .xxlarge-text-right {
+    text-align: right !important;
+  }
+
+  /* line 146, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .xxlarge-text-center {
+    text-align: center !important;
+  }
+
+  /* line 147, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .xxlarge-text-justify {
+    text-align: justify !important;
+  }
+}
+/* Typography resets */
+/* line 193, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+/* Default Link Styles */
+/* line 199, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+a {
+  color: #008cba;
+  text-decoration: none;
+  line-height: inherit;
+}
+/* line 205, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+a:hover, a:focus {
+  color: #0078a0;
+}
+/* line 207, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+a img {
+  border: none;
+}
+
+/* Default paragraph styles */
+/* line 211, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+p {
+  font-family: inherit;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  text-rendering: optimizeLegibility;
+}
+/* line 219, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+p.lead {
+  font-size: 1.21875rem;
+  line-height: 1.6;
+}
+/* line 221, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+p aside {
+  font-size: 0.875rem;
+  line-height: 1.35;
+  font-style: italic;
+}
+
+/* Default header styles */
+/* line 229, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #222222;
+  text-rendering: optimizeLegibility;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+/* line 239, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+  font-size: 60%;
+  color: #6f6f6f;
+  line-height: 0;
+}
+
+/* line 246, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+h1 {
+  font-size: 2.125rem;
+}
+
+/* line 247, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+h2 {
+  font-size: 1.6875rem;
+}
+
+/* line 248, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+h3 {
+  font-size: 1.375rem;
+}
+
+/* line 249, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+h4 {
+  font-size: 1.125rem;
+}
+
+/* line 250, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+h5 {
+  font-size: 1.125rem;
+}
+
+/* line 251, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+h6 {
+  font-size: 1rem;
+}
+
+/* line 253, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+.subheader {
+  line-height: 1.4;
+  color: #6f6f6f;
+  font-weight: normal;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 255, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+hr {
+  border: solid #dddddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 1.25rem 0 1.1875rem;
+  height: 0;
+}
+
+/* Helpful Typography Defaults */
+/* line 265, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+em,
+i {
+  font-style: italic;
+  line-height: inherit;
+}
+
+/* line 271, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+strong,
+b {
+  font-weight: bold;
+  line-height: inherit;
+}
+
+/* line 276, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+small {
+  font-size: 60%;
+  line-height: inherit;
+}
+
+/* line 281, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+code {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-weight: bold;
+  color: #bd260d;
+}
+
+/* Lists */
+/* line 290, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+ul,
+ol,
+dl {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  list-style-position: outside;
+  font-family: inherit;
+}
+
+/* line 298, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+ul {
+  margin-left: 1.1rem;
+}
+/* line 300, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+ul.no-bullet {
+  margin-left: 0;
+}
+/* line 304, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+ul.no-bullet li ul,
+ul.no-bullet li ol {
+  margin-left: 1.25rem;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+/* Unordered Lists */
+/* line 317, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+ul li ul,
+ul li ol {
+  margin-left: 1.25rem;
+  margin-bottom: 0;
+}
+/* line 325, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+ul.square li ul, ul.circle li ul, ul.disc li ul {
+  list-style: inherit;
+}
+/* line 328, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+ul.square {
+  list-style-type: square;
+  margin-left: 1.1rem;
+}
+/* line 329, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+ul.circle {
+  list-style-type: circle;
+  margin-left: 1.1rem;
+}
+/* line 330, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+ul.disc {
+  list-style-type: disc;
+  margin-left: 1.1rem;
+}
+/* line 331, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+ul.no-bullet {
+  list-style: none;
+}
+
+/* Ordered Lists */
+/* line 335, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+ol {
+  margin-left: 1.4rem;
+}
+/* line 339, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+ol li ul,
+ol li ol {
+  margin-left: 1.25rem;
+  margin-bottom: 0;
+}
+
+/* Definition Lists */
+/* line 348, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+dl dt {
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+/* line 352, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+dl dd {
+  margin-bottom: 0.75rem;
+}
+
+/* Abbreviations */
+/* line 357, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+abbr,
+acronym {
+  text-transform: uppercase;
+  font-size: 90%;
+  color: #222222;
+  border-bottom: 1px dotted #dddddd;
+  cursor: help;
+}
+
+/* line 364, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+abbr {
+  text-transform: none;
+}
+
+/* Blockquotes */
+/* line 369, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+blockquote {
+  margin: 0 0 1.25rem;
+  padding: 0.5625rem 1.25rem 0 1.1875rem;
+  border-left: 1px solid #dddddd;
+}
+/* line 374, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+blockquote cite {
+  display: block;
+  font-size: 0.8125rem;
+  color: #555555;
+}
+/* line 378, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+blockquote cite:before {
+  content: "\2014 \0020";
+}
+/* line 383, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+blockquote cite a,
+blockquote cite a:visited {
+  color: #555555;
+}
+
+/* line 389, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+blockquote,
+blockquote p {
+  line-height: 1.6;
+  color: #6f6f6f;
+}
+
+/* Microformats */
+/* line 395, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+.vcard {
+  display: inline-block;
+  margin: 0 0 1.25rem 0;
+  border: 1px solid #dddddd;
+  padding: 0.625rem 0.75rem;
+}
+/* line 401, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+.vcard li {
+  margin: 0;
+  display: block;
+}
+/* line 405, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+.vcard .fn {
+  font-weight: bold;
+  font-size: 0.9375rem;
+}
+
+/* line 412, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+.vevent .summary {
+  font-weight: bold;
+}
+/* line 414, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+.vevent abbr {
+  cursor: default;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  padding: 0 0.0625rem;
+}
+
+@media only screen and (min-width: 40.063em) {
+  /* line 425, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.4;
+  }
+
+  /* line 426, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  h1 {
+    font-size: 2.75rem;
+  }
+
+  /* line 427, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  h2 {
+    font-size: 2.3125rem;
+  }
+
+  /* line 428, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  h3 {
+    font-size: 1.6875rem;
+  }
+
+  /* line 429, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  h4 {
+    font-size: 1.4375rem;
+  }
+}
+/*
+ * Print styles.
+ *
+ * Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/
+ * Credit to Paul Irish and HTML5 Boilerplate (html5boilerplate.com)
+*/
+/* line 440, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+.print-only {
+  display: none !important;
+}
+
+@media print {
+  /* line 442, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 450, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 451, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 453, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 458, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 461, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 466, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+  /* line 469, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 471, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 477, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 483, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+  /* line 485, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .hide-on-print {
+    display: none !important;
+  }
+
+  /* line 486, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .print-only {
+    display: block !important;
+  }
+
+  /* line 487, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .hide-for-print {
+    display: none !important;
+  }
+
+  /* line 488, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_type.scss */
+  .show-for-print {
+    display: inherit !important;
+  }
+}

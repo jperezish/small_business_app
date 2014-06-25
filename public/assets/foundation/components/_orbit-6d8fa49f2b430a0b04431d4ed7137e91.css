@@ -1,0 +1,561 @@
+/* line 260, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-version {
+  font-family: "/5.2.2/";
+}
+
+/* line 264, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-small {
+  font-family: "/only screen/";
+  width: 0em;
+}
+
+/* line 269, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-medium {
+  font-family: "/only screen and (min-width:40.063em)/";
+  width: 40.063em;
+}
+
+/* line 274, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-large {
+  font-family: "/only screen and (min-width:64.063em)/";
+  width: 64.063em;
+}
+
+/* line 279, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-xlarge {
+  font-family: "/only screen and (min-width:90.063em)/";
+  width: 90.063em;
+}
+
+/* line 284, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-xxlarge {
+  font-family: "/only screen and (min-width:120.063em)/";
+  width: 120.063em;
+}
+
+/* line 289, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-data-attribute-namespace {
+  font-family: false;
+}
+
+/* line 296, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 301, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 306, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+html,
+body {
+  font-size: 100%;
+}
+
+/* line 309, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+body {
+  background: white;
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+}
+
+/* line 322, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+a:hover {
+  cursor: pointer;
+}
+
+/* line 325, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 327, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 333, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+#map_canvas img,
+#map_canvas embed,
+#map_canvas object,
+.map_canvas img,
+.map_canvas embed,
+.map_canvas object {
+  max-width: none !important;
+}
+
+/* line 338, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.left {
+  float: left !important;
+}
+
+/* line 339, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.right {
+  float: right !important;
+}
+
+/* line 340, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.clearfix {
+  *zoom: 1;
+}
+/* line 116, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+/* line 117, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 341, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.hide {
+  display: none;
+}
+
+/* line 347, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 350, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 360, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+textarea {
+  height: auto;
+  min-height: 50px;
+}
+
+/* line 363, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+select {
+  width: 100%;
+}
+
+@keyframes rotate {
+  /* line 78, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 79, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* Orbit Graceful Loading */
+/* line 83, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.slideshow-wrapper {
+  position: relative;
+}
+/* line 86, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.slideshow-wrapper ul {
+  list-style-type: none;
+  margin: 0;
+}
+/* line 93, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.slideshow-wrapper ul li,
+.slideshow-wrapper ul li .orbit-caption {
+  display: none;
+}
+/* line 96, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.slideshow-wrapper ul li:first-child {
+  display: block;
+}
+/* line 99, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.slideshow-wrapper .orbit-container {
+  background-color: transparent;
+}
+/* line 102, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.slideshow-wrapper .orbit-container li {
+  display: block;
+}
+/* line 104, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.slideshow-wrapper .orbit-container li .orbit-caption {
+  display: block;
+}
+/* line 109, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.slideshow-wrapper .preloader {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -20px;
+  margin-left: -20px;
+  border: solid 3px;
+  border-color: #555 #fff;
+  border-radius: 1000px;
+  animation-name: rotate;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/* line 128, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  background: none;
+}
+/* line 134, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-slides-container {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -webkit-transform: translateZ(0);
+}
+/* line 143, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-slides-container img {
+  display: block;
+  max-width: 100%;
+}
+/* line 145, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-slides-container.fade li {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+  -ms-transform: translate(0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+/* line 149, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-slides-container.fade li.animate-in {
+  opacity: 1;
+  z-index: 20;
+  transition: opacity 500ms ease-in-out;
+}
+/* line 154, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-slides-container.fade li.animate-out {
+  z-index: 10;
+  transition: opacity 500ms ease-in-out;
+}
+/* line 160, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-slides-container.swipe-next li {
+  -ms-transform: translate(100%, 0);
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  -o-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+}
+/* line 162, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-slides-container.swipe-next li.animate-in {
+  -ms-transform: translate(0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  transition-duration: 500ms;
+}
+/* line 166, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-slides-container.swipe-next li.animate-out {
+  -ms-transform: translate(-100%, 0);
+  -webkit-transform: translate3d(-100%, 0, 0);
+  -moz-transform: translate3d(-100%, 0, 0);
+  -o-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  transition-duration: 500ms;
+}
+/* line 172, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-slides-container.swipe-prev li {
+  -ms-transform: translate(-100%, 0);
+  -webkit-transform: translate3d(-100%, 0, 0);
+  -moz-transform: translate3d(-100%, 0, 0);
+  -o-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+}
+/* line 174, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-slides-container.swipe-prev li.animate-in {
+  -ms-transform: translate(0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  transition-duration: 500ms;
+}
+/* line 178, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-slides-container.swipe-prev li.animate-out {
+  -ms-transform: translate(100%, 0);
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  -o-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+  transition-duration: 500ms;
+}
+/* line 184, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-slides-container li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -ms-transform: translate(100%, 0);
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  -o-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+}
+/* line 191, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-slides-container li.active {
+  opacity: 1;
+  top: 0;
+  left: 0;
+  -ms-transform: translate(0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+/* line 198, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-slides-container li .orbit-caption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(51, 51, 51, 0.8);
+  color: white;
+  width: 100%;
+  padding: 0.625rem 0.875rem;
+  font-size: 0.875rem;
+}
+/* line 215, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-slide-number {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 12px;
+  color: white;
+  background: rgba(0, 0, 0, 0);
+  z-index: 10;
+}
+/* line 220, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-slide-number span {
+  font-weight: 700;
+  padding: 0.3125rem;
+}
+/* line 226, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-timer {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  height: 6px;
+  width: 100px;
+  z-index: 10;
+}
+/* line 233, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-timer .orbit-progress {
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: block;
+  width: 0%;
+  position: relative;
+  right: 20px;
+  top: 5px;
+}
+/* line 248, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-timer > span {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 11px;
+  height: 14px;
+  border: solid 4px #fff;
+  border-top: none;
+  border-bottom: none;
+}
+/* line 262, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-timer.paused > span {
+  right: -4px;
+  top: 0px;
+  width: 11px;
+  height: 14px;
+  border: inset 8px;
+  border-left-style: solid;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  border-color: transparent #fff transparent transparent;
+}
+/* line 271, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-timer.paused > span.dark {
+  border-color: transparent #333 transparent transparent;
+}
+/* line 280, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container:hover .orbit-timer > span {
+  display: block;
+}
+/* line 284, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-prev,
+.orbit-container .orbit-next {
+  position: absolute;
+  top: 45%;
+  margin-top: -25px;
+  width: 36px;
+  height: 60px;
+  line-height: 50px;
+  color: white;
+  background-color: transparent;
+  text-indent: -9999px !important;
+  z-index: 10;
+}
+/* line 296, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-prev:hover,
+.orbit-container .orbit-next:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+/* line 300, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-prev > span,
+.orbit-container .orbit-next > span {
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  display: block;
+  width: 0;
+  height: 0;
+  border: inset 10px;
+}
+/* line 310, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-prev {
+  left: 0;
+}
+/* line 311, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-prev > span {
+  border-right-style: solid;
+  border-color: transparent;
+  border-right-color: white;
+}
+/* line 316, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-prev:hover > span {
+  border-right-color: white;
+}
+/* line 320, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-next {
+  right: 0;
+}
+/* line 321, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-next > span {
+  border-color: transparent;
+  border-left-style: solid;
+  border-left-color: white;
+  left: 50%;
+  margin-left: -4px;
+}
+/* line 328, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-next:hover > span {
+  border-left-color: white;
+}
+/* line 333, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-bullets-container {
+  text-align: center;
+}
+/* line 334, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-bullets {
+  margin: 0 auto 30px auto;
+  overflow: hidden;
+  position: relative;
+  top: 10px;
+  float: none;
+  text-align: center;
+  display: block;
+}
+/* line 343, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-bullets li {
+  display: inline-block;
+  width: 0.5625rem;
+  height: 0.5625rem;
+  background: #cccccc;
+  float: none;
+  margin-right: 6px;
+  border-radius: 1000px;
+}
+/* line 353, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-bullets li.active {
+  background: #999999;
+}
+/* line 357, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.orbit-container .orbit-bullets li:last-child {
+  margin-right: 0;
+}
+
+/* line 366, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.touch .orbit-container .orbit-prev,
+.touch .orbit-container .orbit-next {
+  display: none;
+}
+/* line 369, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+.touch .orbit-bullets {
+  display: none;
+}
+
+@media only screen and (min-width: 40.063em) {
+  /* line 378, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+  .touch .orbit-container .orbit-prev,
+  .touch .orbit-container .orbit-next {
+    display: inherit;
+  }
+  /* line 381, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+  .touch .orbit-bullets {
+    display: block;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 389, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+  .orbit-stack-on-small .orbit-slides-container {
+    height: auto !important;
+  }
+  /* line 390, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+  .orbit-stack-on-small .orbit-slides-container > * {
+    position: relative;
+    margin-left: 0% !important;
+    opacity: 1 !important;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  /* line 403, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+  .orbit-stack-on-small .orbit-timer {
+    display: none;
+  }
+  /* line 406, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+  .orbit-stack-on-small .orbit-next, .orbit-stack-on-small .orbit-prev {
+    display: none;
+  }
+  /* line 409, /usr/local/rvm/gems/ruby-2.1.1@small_business_app/gems/foundation-rails-5.2.2.0/vendor/assets/stylesheets/foundation/components/_orbit.scss */
+  .orbit-stack-on-small .orbit-bullets {
+    display: none;
+  }
+}
