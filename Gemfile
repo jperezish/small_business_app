@@ -17,7 +17,10 @@ gem 'paperclip'
 gem 'aws-sdk'
 gem 'placeholdit'
 gem 'slick_rails'
-gem 'rails_12factor', group: :production
+
+group :production do
+  gem 'rails_12factor'
+end
 
 group :development do
   gem 'better_errors'
