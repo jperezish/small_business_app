@@ -25,7 +25,7 @@
   }
 
 body {
-  background-image: image-url("temp-lead-shot.jpg");
+  background: image-url('temp-lead-shot.jpg') no-repeat center center fixed;
   background-size: cover;
   background-color: black;
 }
