@@ -69,11 +69,7 @@ body {
 }
 
 @media #{$small-only} {
-  .picture-section {
-    #phone-number {
-      font-size: 1.8em;
-    }
-  }
+
   .top-bar {
     height: 70px;
     .name {
